@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+  PepCoach — Support page (public, hostable). Use this URL as the App Store
+  "Support URL". Update the contact email if it changes in legal.ts.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index" />
+  <title>Support · PepCoach</title>
+  <meta name="description" content="Get help with PepCoach — the AI peptide coach, tracker, and reminder." />
+  <style>
+    :root {
+      --bg: #ffffff; --fg: #16181c; --muted: #5b6169; --line: #e6e8ec; --card: #fbfbfc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0b0c0e; --fg: #f2f3f5; --muted: #9aa0a8; --line: #23262b; --card: #131519; }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; background: var(--bg); color: var(--fg);
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 96px; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 36px; }
+    .brand { font-weight: 800; letter-spacing: -0.02em; font-size: 18px; text-decoration: none; color: var(--fg); }
+    nav a { color: var(--muted); text-decoration: none; font-size: 14px; margin-left: 16px; }
+    nav a:hover { color: var(--fg); }
+    h1 { font-size: 30px; letter-spacing: -0.02em; margin: 0 0 6px; }
+    h2 { font-size: 19px; letter-spacing: -0.01em; margin: 34px 0 10px; }
+    p { margin: 0 0 14px; }
+    a { color: var(--fg); }
+    .lede { font-size: 18px; color: var(--muted); margin-bottom: 28px; }
+    .contact {
+      display: inline-block; margin: 6px 0 10px; padding: 12px 18px; border: 1px solid var(--line);
+      border-radius: 12px; background: var(--card); text-decoration: none; color: var(--fg); font-weight: 600;
+    }
+    .faq { border-top: 1px solid var(--line); margin-top: 8px; }
+    details { border-bottom: 1px solid var(--line); padding: 4px 0; }
+    summary { cursor: pointer; padding: 14px 2px; font-weight: 600; list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; float: right; color: var(--muted); }
+    details[open] summary::after { content: "–"; }
+    details p { padding: 0 2px 8px; color: var(--muted); }
+    footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">PepCoach</a>
+      <nav>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <h1>Support</h1>
+    <p class="lede">Questions, bugs, billing, or account help — we're happy to help.</p>
+
+    <a class="contact" href="mailto:support@pepcoach.app?subject=PepCoach%20support">Email support@pepcoach.app</a>
+    <p style="color:var(--muted);font-size:14px;">We usually reply within 1–2 business days.</p>
+
+    <h2>Common questions</h2>
+    <div class="faq">
+      <details>
+        <summary>Is PepCoach medical advice?</summary>
+        <p>No. PepCoach is an educational coach, tracker, and reminder. It provides general, harm-reduction information only and is not a diagnosis, prescription, or treatment. Always consult a qualified clinician before starting, changing, or stopping any peptide or health regimen.</p>
+      </details>
+      <details>
+        <summary>How do I manage or cancel my subscription?</summary>
+        <p>PepCoach Pro is billed through your App Store account. To cancel, open the App Store, tap your profile, tap Subscriptions, choose PepCoach, then Cancel. Your Pro access continues until the end of the current billing period.</p>
+      </details>
+      <details>
+        <summary>How do I restore a purchase on a new device?</summary>
+        <p>Open PepCoach, go to the You tab, tap Upgrade, then "Restore purchases". As long as you're signed into the same App Store account, your Pro access will return.</p>
+      </details>
+      <details>
+        <summary>How do I export or delete my data?</summary>
+        <p>In the You tab: "Export my data" creates a full backup file. "Delete account &amp; all data" permanently erases your account, records, and photos. You can also "Reset all data" to clear this device only.</p>
+      </details>
+      <details>
+        <summary>Do I need an account to use the app?</summary>
+        <p>No. Sign-in is optional. As a guest, your data stays on your device only. Signing in backs your data up so it syncs across your devices.</p>
+      </details>
+      <details>
+        <summary>Is my data private?</summary>
+        <p>Yes. We don't sell your data or use advertising trackers. Your data lives on your device and, if you sign in, in an encrypted per-user cloud store. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+      </details>
+    </div>
+
+    <footer>
+      <p>PepCoach · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a></p>
+    </footer>
+  </div>
+</body>
+</html>
